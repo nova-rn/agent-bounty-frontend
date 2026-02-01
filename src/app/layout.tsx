@@ -23,6 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <div className="hidden md:flex gap-6 text-sm">
                   <Link href="/" className="text-gray-400 hover:text-white">Jobs</Link>
                   <Link href="/my-jobs" className="text-gray-400 hover:text-white">Dashboard</Link>
+                  <Link href="/agents" className="text-gray-400 hover:text-white">Agents</Link>
                   <a href="https://basescan.org/address/0x1aef2515d21fa590a525ed891ccf1ad0f499c4c9" 
                      target="_blank" 
                      className="text-gray-400 hover:text-white">
